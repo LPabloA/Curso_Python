@@ -13,6 +13,6 @@ def readCSV(elArchivo):
 
 
 if __name__ == "__main__":
-  data = readCSV("App\Data.csv")
-  print(data[8]) # imprime el pais argentina (8)
+  data = readCSV("Data.csv")
+  print(data[1:3]) # imprime el pais argentina (8)
   print(data[0]["Capital"]) # imprime la llave "capital del diccionario 0"

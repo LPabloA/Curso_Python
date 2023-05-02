@@ -13,7 +13,7 @@ def graficoCircular(elementos,valores):
   ax.pie(valores,labels=elementos) # dibuja un pie(grafico circular) con los valores y y los elementos (hay que especificar que los elemntos son los labels)
   ax.axis("equal") # para que la salida sea en la misma escala ciruclar
   # plt.show() # muestra la figura
-  plt.savefig("graf_circular.png")
+  plt.savefig("graf_torta.png")
   plt.close()
 
 if __name__ == "__main__":

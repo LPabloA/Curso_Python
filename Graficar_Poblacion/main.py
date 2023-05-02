@@ -13,6 +13,7 @@ graficas.graficar(poblacion,pais) # grafica un diabrama de
 
 continente_selesccionado = "South America" 
 paises_seleccionados = list(filter(lambda continente : continente["Continent"] == continente_selesccionado,paises)) # filtra el total de paises a solo los del continente selesccionado
+
 poblacion_mundial = Utils.poblacion_mundial(paises_seleccionados) # obtiene el dato de poblacion 2022 de cada pais que pase el filtro
 # print(poblacion_mundial)
 nombre_paises = list(poblacion_mundial.keys())
